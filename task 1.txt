@@ -1,0 +1,43 @@
+
+
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>DirecTrac — Before & After</title>
+  <style>
+    body { font-family: system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial; margin:0; padding:32px; color:#0f1724; background:#f7fafc; }
+    .container { max-width:1000px; margin:0 auto; background:#fff; padding:32px; border-radius:8px; box-shadow: 0 8px 30px rgba(2,6,23,0.08); }
+    h1 { margin-top:0; font-size:28px; }
+    .row { display:flex; gap:24px; flex-wrap:wrap; align-items:flex-start; }
+    .card { flex:1 1 320px; background:#fff; border-radius:8px; padding:16px; text-align:center; box-shadow: 0 6px 18px rgba(2,6,23,0.04); }
+    img { max-width:100%; height:auto; border-radius:6px; }
+    .meta { text-align:left; margin-top:20px; color:#475569; }
+    .cta { display:inline-block; margin-top:18px; padding:10px 16px; background:#1d4ed8; color:#fff; border-radius:8px; text-decoration:none; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>DirecTrac — Landing Page Redesign</h1>
+    <p class="meta">Before & After visuals and a short case study. Files in <code>/assets</code>.</p>
+
+    <div class="row" style="margin-top:18px;">
+      <div class="card">
+        <h3>Before</h3>
+        <img src="./assets/before.png" alt="Before screenshot">
+      </div>
+      <div class="card">
+        <h3>After</h3>
+        <img src="./assets/after.png" alt="After mockup">
+      </div>
+    </div>
+
+    <section class="meta">
+      <h2>Case Study — Summary</h2>
+      <p><strong>Objective:</strong> Improve usability, aesthetics, and conversions by clarifying the value prop, simplifying navigation, and adding social proof.</p>
+      <p><strong>Outcome:</strong> Cleaner layout, stronger CTA, modern visuals and improved trust signals.</p>
+      <a class="cta" href="#assets">Download Assets</a>
+    </section>
+  </div>
+</body>
+</html>
